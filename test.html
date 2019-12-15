@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script>function afficher(form) {
+        var testin =document.getElementById('package').value;
+        document.getElementById('fichier_control').value=testin;
+        }
+        function afficher2(form) {
+        var testin =document.getElementById('package2').value;
+        document.getElementById('fichier_control').value=testin;
+        }
+        
+        
+        
+        </script>
+
+
+
+
+
+<form name="form">
+        <input type="text" name="package" id="package" disabled value="Contributeur"/>
+        <input type="text" name="package2" id="package2" disabled value="admin"/>
+        <input type="button" onclick="afficher(form);" value="Contributeur"/>
+        <input type="button" onclick="afficher2(form);" value="admin"/>
+        
+        <input type="text" name="fichier_control" id="fichier_control" disabled/>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
